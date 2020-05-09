@@ -6,6 +6,9 @@ class SecretsController < ApplicationController
     @user =current_user
   end
 
+  def page
+    
+  end
 
   private
     def require_login
